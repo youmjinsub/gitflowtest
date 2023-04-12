@@ -8,6 +8,8 @@ public class GameManager : MonoBehaviour
     public static bool isPause = false;
     public GameObject player;
     public GameObject menuSet;
+    
+    float b = 0; //test2
     void Start()
     {
         GameLoad();
