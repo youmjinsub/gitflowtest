@@ -9,7 +9,12 @@ public class GameManager : MonoBehaviour
     public GameObject player;
     public GameObject menuSet;
 
+
     float a = 1; //test 1
+
+    
+    float b = 0; //test2
+
     void Start()
     {
         GameLoad();
