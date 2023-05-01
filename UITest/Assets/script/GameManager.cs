@@ -10,10 +10,10 @@ public class GameManager : MonoBehaviour
     public GameObject menuSet;
 
 
-    float a = 1; //test 1
-
+    //test 1
+    ///test 111
     
-    float b = 0; //test2
+    //test2
 
     void Start()
     {
