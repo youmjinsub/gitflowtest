@@ -36,9 +36,11 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\script\QuickSlotController.cs" />
      <Compile Include="Assets\script\GameManager.cs" />
      <Compile Include="Assets\script\TitleExit.cs" />
      <Compile Include="Assets\script\ScenesChange.cs" />
+     <Compile Include="Assets\script\Slot.cs" />
      <Compile Include="Assets\script\UI.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />

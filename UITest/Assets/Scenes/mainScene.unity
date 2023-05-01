@@ -1112,7 +1112,7 @@ RectTransform:
   m_GameObject: {fileID: 1132697158}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2.2221, y: 2.2221, z: 2.2221}
   m_Children:
   - {fileID: 1419038736}
   - {fileID: 709990579}
@@ -1127,7 +1127,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -99, y: -179}
   m_SizeDelta: {x: 0, y: -270}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1235080182
@@ -1326,7 +1326,7 @@ RectTransform:
   m_GameObject: {fileID: 1278981236}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.0125, y: 1, z: 1}
+  m_LocalScale: {x: 1.96425, y: 2.0249, z: 1}
   m_Children:
   - {fileID: 623679858}
   - {fileID: 1235080183}
@@ -1335,7 +1335,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -269, y: 65}
+  m_AnchoredPosition: {x: -721, y: 287}
   m_SizeDelta: {x: 191.2303, y: 73.5119}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1278981238
@@ -2156,7 +2156,7 @@ RectTransform:
   m_GameObject: {fileID: 1690384777}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.0125, y: 1, z: 1}
+  m_LocalScale: {x: 1.9642501, y: 2.0249, z: 1}
   m_Children:
   - {fileID: 1976089425}
   - {fileID: 879643582}
@@ -2165,7 +2165,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -269, y: 110}
+  m_AnchoredPosition: {x: -721, y: 403}
   m_SizeDelta: {x: 191.2303, y: 73.5119}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1690384779
@@ -2405,6 +2405,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1848702537}
+  - component: {fileID: 1848702538}
   m_Layer: 5
   m_Name: QuickSlot
   m_TagString: Untagged
@@ -2432,6 +2433,21 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1848702538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1848702536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6a94d40d59cb7b419efd2e2681c049e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  quickSlots: []
+  tf_parent: {fileID: 1132697159}
+  go_SelectedImage: {fileID: 2114553978}
 --- !u!1 &1970822244
 GameObject:
   m_ObjectHideFlags: 0
